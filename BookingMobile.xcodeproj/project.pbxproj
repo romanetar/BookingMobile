@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		301877C41788BA1400A7E375 /* VehiclesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 301877C31788BA1400A7E375 /* VehiclesManager.m */; };
+		301877C81788BAB200A7E375 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 301877C71788BAB200A7E375 /* Vehicle.m */; };
+		308ED8CC17851DE100756B70 /* map-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 308ED8CB17851DE100756B70 /* map-marker.png */; };
+		308FE3951786477000A106A6 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 308FE3911786477000A106A6 /* blueButton.png */; };
+		308FE3961786477000A106A6 /* blueButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308FE3921786477000A106A6 /* blueButton@2x.png */; };
+		308FE3971786477000A106A6 /* blueButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 308FE3931786477000A106A6 /* blueButtonHighlight.png */; };
+		308FE3981786477000A106A6 /* blueButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 308FE3941786477000A106A6 /* blueButtonHighlight@2x.png */; };
+		308FE39E178652F700A106A6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308FE39D178652F700A106A6 /* LoginViewController.m */; };
+		308FE3A217865C7C00A106A6 /* UIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 308FE3A117865C7C00A106A6 /* UIConfig.m */; };
+		308FE3A417865E9B00A106A6 /* etaxilogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 308FE3A317865E9B00A106A6 /* etaxilogo.png */; };
+		308FE3A717866CC900A106A6 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308FE3A617866CC900A106A6 /* RegistrationViewController.m */; };
+		30E954871780BCF7009543B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E954861780BCF7009543B0 /* UIKit.framework */; };
+		30E954891780BCF7009543B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E954881780BCF7009543B0 /* Foundation.framework */; };
+		30E9548B1780BCF7009543B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E9548A1780BCF7009543B0 /* CoreGraphics.framework */; };
+		30E954911780BCF7009543B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30E9548F1780BCF7009543B0 /* InfoPlist.strings */; };
+		30E954931780BCF7009543B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E954921780BCF7009543B0 /* main.m */; };
+		30E954971780BCF7009543B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E954961780BCF7009543B0 /* AppDelegate.m */; };
+		30E954991780BCF7009543B0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 30E954981780BCF7009543B0 /* Default.png */; };
+		30E9549B1780BCF7009543B0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30E9549A1780BCF7009543B0 /* Default@2x.png */; };
+		30E9549D1780BCF7009543B0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30E9549C1780BCF7009543B0 /* Default-568h@2x.png */; };
+		30E954A01780BCF7009543B0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30E9549E1780BCF7009543B0 /* MainStoryboard.storyboard */; };
+		30E954AB1780BCF7009543B0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E954AA1780BCF7009543B0 /* SenTestingKit.framework */; };
+		30E954AC1780BCF7009543B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E954861780BCF7009543B0 /* UIKit.framework */; };
+		30E954AD1780BCF7009543B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E954881780BCF7009543B0 /* Foundation.framework */; };
+		30E954C21780DDB6009543B0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E954C11780DDB6009543B0 /* MapKit.framework */; };
+		30E954C41780DDC3009543B0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E954C31780DDC3009543B0 /* CoreLocation.framework */; };
+		30E954C81780F1D7009543B0 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E954C71780F1D7009543B0 /* MapViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30E954AE1780BCF7009543B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30E9547B1780BCF7009543B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30E954821780BCF7009543B0;
+			remoteInfo = MAT1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		301877C21788BA1400A7E375 /* VehiclesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VehiclesManager.h; path = BookingMobile/VehiclesManager.h; sourceTree = "<group>"; };
+		301877C31788BA1400A7E375 /* VehiclesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VehiclesManager.m; path = BookingMobile/VehiclesManager.m; sourceTree = "<group>"; };
+		301877C61788BAB200A7E375 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		301877C71788BAB200A7E375 /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		308ED8CB17851DE100756B70 /* map-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-marker.png"; sourceTree = "<group>"; };
+		308FE3911786477000A106A6 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		308FE3921786477000A106A6 /* blueButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueButton@2x.png"; sourceTree = "<group>"; };
+		308FE3931786477000A106A6 /* blueButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButtonHighlight.png; sourceTree = "<group>"; };
+		308FE3941786477000A106A6 /* blueButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		308FE39C178652F700A106A6 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		308FE39D178652F700A106A6 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		308FE3A017865C7C00A106A6 /* UIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIConfig.h; sourceTree = "<group>"; };
+		308FE3A117865C7C00A106A6 /* UIConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIConfig.m; sourceTree = "<group>"; };
+		308FE3A317865E9B00A106A6 /* etaxilogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = etaxilogo.png; sourceTree = "<group>"; };
+		308FE3A517866CC900A106A6 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		308FE3A617866CC900A106A6 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		30E954831780BCF7009543B0 /* BookingMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookingMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E954861780BCF7009543B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		30E954881780BCF7009543B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30E9548A1780BCF7009543B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		30E9548E1780BCF7009543B0 /* BookingMobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BookingMobile-Info.plist"; sourceTree = "<group>"; };
+		30E954901780BCF7009543B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30E954921780BCF7009543B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		30E954941780BCF7009543B0 /* BookingMobile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BookingMobile-Prefix.pch"; sourceTree = "<group>"; };
+		30E954951780BCF7009543B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30E954961780BCF7009543B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30E954981780BCF7009543B0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		30E9549A1780BCF7009543B0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		30E9549C1780BCF7009543B0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		30E9549F1780BCF7009543B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		30E954A91780BCF7009543B0 /* BookingMobileTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookingMobileTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E954AA1780BCF7009543B0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		30E954C11780DDB6009543B0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		30E954C31780DDC3009543B0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		30E954C61780F1D6009543B0 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		30E954C71780F1D7009543B0 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30E954801780BCF7009543B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E954C41780DDC3009543B0 /* CoreLocation.framework in Frameworks */,
+				30E954C21780DDB6009543B0 /* MapKit.framework in Frameworks */,
+				30E954871780BCF7009543B0 /* UIKit.framework in Frameworks */,
+				30E954891780BCF7009543B0 /* Foundation.framework in Frameworks */,
+				30E9548B1780BCF7009543B0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E954A51780BCF7009543B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E954AB1780BCF7009543B0 /* SenTestingKit.framework in Frameworks */,
+				30E954AC1780BCF7009543B0 /* UIKit.framework in Frameworks */,
+				30E954AD1780BCF7009543B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		301877C11788B97B00A7E375 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		301877C51788BA4700A7E375 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				301877C21788BA1400A7E375 /* VehiclesManager.h */,
+				301877C31788BA1400A7E375 /* VehiclesManager.m */,
+				301877C61788BAB200A7E375 /* Vehicle.h */,
+				301877C71788BAB200A7E375 /* Vehicle.m */,
+			);
+			name = Domain;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		308FE39F17865C2700A106A6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				308FE3A017865C7C00A106A6 /* UIConfig.h */,
+				308FE3A117865C7C00A106A6 /* UIConfig.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		30E9547A1780BCF7009543B0 = {
+			isa = PBXGroup;
+			children = (
+				30E9548C1780BCF7009543B0 /* BookingMobile */,
+				30E954851780BCF7009543B0 /* Frameworks */,
+				30E954841780BCF7009543B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30E954841780BCF7009543B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30E954831780BCF7009543B0 /* BookingMobile.app */,
+				30E954A91780BCF7009543B0 /* BookingMobileTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30E954851780BCF7009543B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30E954C31780DDC3009543B0 /* CoreLocation.framework */,
+				30E954C11780DDB6009543B0 /* MapKit.framework */,
+				30E954861780BCF7009543B0 /* UIKit.framework */,
+				30E954881780BCF7009543B0 /* Foundation.framework */,
+				30E9548A1780BCF7009543B0 /* CoreGraphics.framework */,
+				30E954AA1780BCF7009543B0 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30E9548C1780BCF7009543B0 /* BookingMobile */ = {
+			isa = PBXGroup;
+			children = (
+				301877C51788BA4700A7E375 /* Domain */,
+				301877C11788B97B00A7E375 /* Map */,
+				308FE39F17865C2700A106A6 /* Common */,
+				30E954951780BCF7009543B0 /* AppDelegate.h */,
+				30E954961780BCF7009543B0 /* AppDelegate.m */,
+				30E9549E1780BCF7009543B0 /* MainStoryboard.storyboard */,
+				30E954C61780F1D6009543B0 /* MapViewController.h */,
+				30E954C71780F1D7009543B0 /* MapViewController.m */,
+				308FE39C178652F700A106A6 /* LoginViewController.h */,
+				308FE39D178652F700A106A6 /* LoginViewController.m */,
+				308FE3A517866CC900A106A6 /* RegistrationViewController.h */,
+				308FE3A617866CC900A106A6 /* RegistrationViewController.m */,
+				30E9548D1780BCF7009543B0 /* Supporting Files */,
+			);
+			path = BookingMobile;
+			sourceTree = "<group>";
+		};
+		30E9548D1780BCF7009543B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30E9548E1780BCF7009543B0 /* BookingMobile-Info.plist */,
+				30E9548F1780BCF7009543B0 /* InfoPlist.strings */,
+				30E954921780BCF7009543B0 /* main.m */,
+				30E954941780BCF7009543B0 /* BookingMobile-Prefix.pch */,
+				308FE3911786477000A106A6 /* blueButton.png */,
+				308FE3A317865E9B00A106A6 /* etaxilogo.png */,
+				308FE3921786477000A106A6 /* blueButton@2x.png */,
+				308FE3931786477000A106A6 /* blueButtonHighlight.png */,
+				308FE3941786477000A106A6 /* blueButtonHighlight@2x.png */,
+				30E954981780BCF7009543B0 /* Default.png */,
+				30E9549A1780BCF7009543B0 /* Default@2x.png */,
+				30E9549C1780BCF7009543B0 /* Default-568h@2x.png */,
+				308ED8CB17851DE100756B70 /* map-marker.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30E954821780BCF7009543B0 /* BookingMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E954BB1780BCF8009543B0 /* Build configuration list for PBXNativeTarget "BookingMobile" */;
+			buildPhases = (
+				30E9547F1780BCF7009543B0 /* Sources */,
+				30E954801780BCF7009543B0 /* Frameworks */,
+				30E954811780BCF7009543B0 /* Resources */,
+				50524F424C454D533F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookingMobile;
+			productName = MAT1;
+			productReference = 30E954831780BCF7009543B0 /* BookingMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30E954A81780BCF7009543B0 /* BookingMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30E954BE1780BCF8009543B0 /* Build configuration list for PBXNativeTarget "BookingMobileTests" */;
+			buildPhases = (
+				30E954A41780BCF7009543B0 /* Sources */,
+				30E954A51780BCF7009543B0 /* Frameworks */,
+				30E954A61780BCF7009543B0 /* Resources */,
+				30E954A71780BCF7009543B0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30E954AF1780BCF7009543B0 /* PBXTargetDependency */,
+			);
+			name = BookingMobileTests;
+			productName = MAT1Tests;
+			productReference = 30E954A91780BCF7009543B0 /* BookingMobileTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30E9547B1780BCF7009543B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Digital File";
+			};
+			buildConfigurationList = 30E9547E1780BCF7009543B0 /* Build configuration list for PBXProject "BookingMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 30E9547A1780BCF7009543B0;
+			productRefGroup = 30E954841780BCF7009543B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30E954821780BCF7009543B0 /* BookingMobile */,
+				30E954A81780BCF7009543B0 /* BookingMobileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30E954811780BCF7009543B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E954911780BCF7009543B0 /* InfoPlist.strings in Resources */,
+				30E954991780BCF7009543B0 /* Default.png in Resources */,
+				30E9549B1780BCF7009543B0 /* Default@2x.png in Resources */,
+				30E9549D1780BCF7009543B0 /* Default-568h@2x.png in Resources */,
+				30E954A01780BCF7009543B0 /* MainStoryboard.storyboard in Resources */,
+				308ED8CC17851DE100756B70 /* map-marker.png in Resources */,
+				308FE3951786477000A106A6 /* blueButton.png in Resources */,
+				308FE3961786477000A106A6 /* blueButton@2x.png in Resources */,
+				308FE3971786477000A106A6 /* blueButtonHighlight.png in Resources */,
+				308FE3981786477000A106A6 /* blueButtonHighlight@2x.png in Resources */,
+				308FE3A417865E9B00A106A6 /* etaxilogo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E954A61780BCF7009543B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30E954A71780BCF7009543B0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		50524F424C454D533F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Library/JailCoder/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Library/JailCoder/Entitlements/Entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30E9547F1780BCF7009543B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E954931780BCF7009543B0 /* main.m in Sources */,
+				30E954971780BCF7009543B0 /* AppDelegate.m in Sources */,
+				30E954C81780F1D7009543B0 /* MapViewController.m in Sources */,
+				308FE39E178652F700A106A6 /* LoginViewController.m in Sources */,
+				308FE3A217865C7C00A106A6 /* UIConfig.m in Sources */,
+				308FE3A717866CC900A106A6 /* RegistrationViewController.m in Sources */,
+				301877C41788BA1400A7E375 /* VehiclesManager.m in Sources */,
+				301877C81788BAB200A7E375 /* Vehicle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30E954A41780BCF7009543B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30E954AF1780BCF7009543B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30E954821780BCF7009543B0 /* BookingMobile */;
+			targetProxy = 30E954AE1780BCF7009543B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30E9548F1780BCF7009543B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E954901780BCF7009543B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		30E9549E1780BCF7009543B0 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E9549F1780BCF7009543B0 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30E954B91780BCF8009543B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30E954BA1780BCF8009543B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30E954BC1780BCF8009543B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookingMobile/BookingMobile-Prefix.pch";
+				INFOPLIST_FILE = "BookingMobile/BookingMobile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = BookingMobile;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		30E954BD1780BCF8009543B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookingMobile/BookingMobile-Prefix.pch";
+				INFOPLIST_FILE = "BookingMobile/BookingMobile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = BookingMobile;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		30E954BF1780BCF8009543B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MAT1.app/MAT1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MAT1/MAT1-Prefix.pch";
+				INFOPLIST_FILE = "MAT1Tests/MAT1Tests-Info.plist";
+				PRODUCT_NAME = BookingMobileTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		30E954C01780BCF8009543B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MAT1.app/MAT1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MAT1/MAT1-Prefix.pch";
+				INFOPLIST_FILE = "MAT1Tests/MAT1Tests-Info.plist";
+				PRODUCT_NAME = BookingMobileTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30E9547E1780BCF7009543B0 /* Build configuration list for PBXProject "BookingMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E954B91780BCF8009543B0 /* Debug */,
+				30E954BA1780BCF8009543B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E954BB1780BCF8009543B0 /* Build configuration list for PBXNativeTarget "BookingMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E954BC1780BCF8009543B0 /* Debug */,
+				30E954BD1780BCF8009543B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30E954BE1780BCF8009543B0 /* Build configuration list for PBXNativeTarget "BookingMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30E954BF1780BCF8009543B0 /* Debug */,
+				30E954C01780BCF8009543B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30E9547B1780BCF7009543B0 /* Project object */;
+}
